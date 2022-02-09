@@ -166,6 +166,14 @@ html {
     font-size: 14px;
 }
 
+#header .mobile-menu-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+#header .mobile-menu-btn,
 #header .search-btn {
     float: right;
 }
@@ -175,11 +183,17 @@ html {
     cursor: pointer;
 }
 
+#header .mobile-menu-btn:hover .menu-icon {
+    background-color: #ccc;
+    color: #000;
+}
+
+
+#header .menu-icon,
 #header .search-icon {
     color: #fff;
     line-height: 46px;
     padding: 0 23px;
-
 }
 
 /* Slider */
@@ -253,7 +267,7 @@ html {
 }
 
 #content .members-list {
-    margin-top: 48px;
+    margin-top: 32px;
     /* overflow: hidden; */
 }
 
@@ -307,7 +321,7 @@ html {
 
 /* Places */
 .place-list {
-    margin-top: 32px;
+    margin-top: 16px;
 }
 
 .place-img {

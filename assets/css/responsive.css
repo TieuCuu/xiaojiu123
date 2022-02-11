@@ -19,6 +19,11 @@
     
     .contact-form .form-control {
         padding: 14px;
+        font-size: 16px;
+    }
+
+    .contact-submit-btn {
+        font-size: 16px;
     }
 
     .socials-list a {
